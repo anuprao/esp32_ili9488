@@ -1,12 +1,13 @@
-# LittlevGL project for ESP32
+# ILI9488 Fork of LittlevGL project for ESP32
 
-![Example GUI with LittlevGL on ESP32](https://raw.githubusercontent.com/littlevgl/esp32_ili9431/master/screenshot.jpg)
+![Example GUI with LittlevGL on ESP32](https://raw.githubusercontent.com/anuprao/esp32_ili9488/master/screenshot.jpg)
 
+Original Repo Credit Reference: https://github.com/littlevgl/esp32_ili9341 
 
 ## Get started 
 ### Install the ESP32 SDK
 1. Install ESP-IDF: http://esp-idf.readthedocs.io/en/latest/
-2. Get this projects: `git clone https://github.com/littlevgl/esp32_ili9431.git --recurse-submodules
+2. Get this projects: `git clone https://github.com/anuprao/esp32_ili9488.git --recurse-submodules
 
 ### Add LittlevGL to the build
 To link LittlevGL (lvgl) and lv_examples with ESP-IDF you need to add a **component.mk** file to each directory. Next to this REAMDE file you find two example component.mk files
