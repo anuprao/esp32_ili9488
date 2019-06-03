@@ -20,9 +20,9 @@ Rename them to component.mk and copy to the lvgl and lv_examples directories.
 3. `make flash`
 
 ## Drivers
-This project comes with an **ILI9341** display driver and an **XPT2046** resistive touchpad driver. Both devices are communicating via SPI.
+This project comes with an **ILI9488** display driver and an **XPT2046** resistive touchpad driver. Both devices are communicating via SPI.
 
-### ILI9341
+### ILI9488
 The default pinout is:
 
 | Name | Pin |
@@ -34,9 +34,9 @@ The default pinout is:
 | BCKL | 23 |
 | RST | 18 | 
 
-You can modify the pin configuration in `drv/disp_spi.h` and `drv/ili9341.h`
+You can modify the pin configuration in `drv/disp_spi.h` and `drv/ili9488.h`
 
-For ILI9341 HSPI is used.
+For ILI9488 HSPI is used.
 
 
 ### XPT2046
